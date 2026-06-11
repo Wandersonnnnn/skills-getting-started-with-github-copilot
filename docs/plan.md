@@ -26,8 +26,7 @@ Adicionar uma suite de testes backend com pytest em um diretorio dedicado tests/
 - Escopo incluido: testes backend FastAPI em diretorio separado tests/.
 - Escopo incluido: adicao de pytest em requirements.txt.
 - Decisao de estilo: todos os testes seguem AAA de forma explicita e consistente.
-- Escopo excluido: mudancas de frontend, refatoracao arquitetural do app para factory e cobertura com plugins extras.
-
+- Escopo incluido: aprimoramentos no frontend (UI/UX) para exibir e remover participantes.
 ## Verificacao
 
 1. Instalar dependencias do projeto.
