@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!response.ok) {
         throw new Error(`Failed to fetch activities: ${response.status}`);
       }
-
+      
       const activities = await response.json();
 
       // Clear loading message
