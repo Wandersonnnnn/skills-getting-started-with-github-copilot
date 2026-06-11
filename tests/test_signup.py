@@ -39,3 +39,17 @@ def test_signup_returns_422_when_email_is_missing(client):
 
     # Assert
     assert response.status_code == 422
+
+
+def test_signup_returns_400_when_already_signed_up(client):
+    # Arrange
+    activity_name = "Chess Club"
+    email = "michael@mergington.edu"
+    signup_path = f"/activities/{activity_name}/signup"
+
+    # Act
+    response = client.post(signup_path, params={"email": email})
+
+    # Assert
+    assert response.status_code == 400
+    assert response.json()["detail"] == "Student already signed up for this activity"
