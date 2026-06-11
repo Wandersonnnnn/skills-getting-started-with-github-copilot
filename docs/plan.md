@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Adicionar uma suite de testes backend com pytest em um diretorio dedicado tests/, cobrindo todas as rotas existentes do FastAPI sem alterar o comportamento da API, com todos os casos estruturados no padrao AAA (Arrange-Act-Assert).
+Adicionar uma suite de testes backend com pytest em um diretorio dedicado tests/, cobrindo todas as rotas existentes do FastAPI e documentando/validando os comportamentos atuais (incluindo a validacao de inscricao duplicada e o novo endpoint de remocao de participantes), com todos os casos estruturados no padrao AAA (Arrange-Act-Assert).
 
 ## Etapas
 
